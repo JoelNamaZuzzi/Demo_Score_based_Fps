@@ -13,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
+  - Wall
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Player
+  - Explosive
+  - AllyBullet
+  - EnemyBullet
   - 
   - 
   - 
