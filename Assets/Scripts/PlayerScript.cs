@@ -1,41 +1,22 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+
+
+    public CharacterController Controller;
+
+    public float speed = 12f;
     
-    public InputMaster controls;
-
-    void Awake ()
+    void Update()
     {
-        controls.Player.Shoot.performed += ctx => Shoot();
-        controls.Player.Movement.performed += _ => Move();
-    }
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
 
-    void Move()
-    {
-        Debug.Log("player wanna move");
-        
+        Vector3 move = transform.right*x+transform.forward *z;
 
+        Controller.Move(move*speed*Time.deltaTime);
     }
-    
-    void Shoot()
-    {
-        Debug.Log("SHOOT");
-
-    }
-
-    private void OnEnable()
-    {
-        controls.Enable();
-    }
-
-    private void OnDisable()
-    {
-        controls.Disable();
-    }
-    
-    
 }
