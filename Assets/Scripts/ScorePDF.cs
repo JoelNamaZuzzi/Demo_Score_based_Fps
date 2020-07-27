@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Score : MonoBehaviour
+public class ScorePDF : MonoBehaviour
 {
     public int _score;
-
-    private void Start()
+    
+    void Start()
     {
         _score = 0;
     }

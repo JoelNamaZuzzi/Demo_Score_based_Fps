@@ -112,8 +112,8 @@ GameObject:
   - component: {fileID: 1919865093304686191}
   - component: {fileID: 1919865093304686190}
   - component: {fileID: 1919865093304686185}
-  - component: {fileID: 1919865093304686179}
-  - component: {fileID: -4431891750967646108}
+  - component: {fileID: -90532074830707595}
+  - component: {fileID: 8478049194440632460}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 12
   Controller: {fileID: 1919865093304686190}
---- !u!114 &1919865093304686179
+--- !u!114 &-90532074830707595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,22 +238,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1919865093304686184}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509c47dfb5bd07743a973902909cf5b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 7520826519903040640, guid: 79b2563dc55d80140811c5bfec796b81,
-    type: 3}
-  playerCam: {fileID: 1919865093150584455}
---- !u!114 &-4431891750967646108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919865093304686184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0eb54025e8130134f90990e536af1f6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 22d6f67a310ee2946b375d40a1cd0d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _score: 0
+--- !u!114 &8478049194440632460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919865093304686184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26545782416885144a21a9d58614ab14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletprefab: {fileID: 7520826519903040640, guid: 79b2563dc55d80140811c5bfec796b81,
+    type: 3}
+  playerCam: {fileID: 1919865093150584455}

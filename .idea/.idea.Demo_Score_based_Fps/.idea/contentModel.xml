@@ -12,13 +12,17 @@
             <e p="mouselook.cs" t="Include" />
             <e p="PlayerMove.cs" t="Include" />
             <e p="Score.cs" t="Include" />
-            <e p="Shooting.cs" t="Include" />
+            <e p="Shotting.cs" t="Include" />
             <e p="TargetScript.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BulletScriptPDF.cs" t="Include" />
           <e p="mouselook.cs" t="Include" />
-          <e p="PlayerScript.cs" t="Include" />
+          <e p="PlayerScriptPDF.cs" t="Include" />
+          <e p="ScorePDF.cs" t="Include" />
+          <e p="ShootingPDF.cs" t="Include" />
+          <e p="TargetScriptPDF.cs" t="Include" />
         </e>
       </e>
       <e p="Demo_Score_based_Fps.sln" t="IncludeFlat" />

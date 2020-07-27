@@ -22,11 +22,19 @@
     <list default="true" id="7a50caa0-b74b-4fb5-add7-f0d62fda298a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PDF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PDF/Prefab/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Prefab/Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PDF/Scenes/Exemple.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Scenes/Exemple.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Prefab/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Prefab/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Prefab/Cylinder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Prefab/Cylinder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Prefab/Target.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Prefab/Target.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/Score.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/Score.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/Score.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +46,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Score.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScorePDF.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetScriptPDF.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScriptPDF.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletScriptPDF.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShootingPDF.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Shotting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Score.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Plugins/HID/HID.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/mouselook.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -57,10 +69,16 @@
         <option value="$PROJECT_DIR$/Assets/PDF/Script/MouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/PDF/Script/Emitter.cs" />
         <option value="$PROJECT_DIR$/Assets/PDF/Script/PlayerMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" />
         <option value="$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShootingPDF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScorePDF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScriptPDF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BulletScriptPDF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TargetScriptPDF.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" />
         <option value="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" />
         <option value="$PROJECT_DIR$/Assets/PDF/Script/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/Shotting.cs" />
       </list>
     </option>
   </component>
@@ -109,6 +127,7 @@
       <workItem from="1594897494303" duration="94000" />
       <workItem from="1594897619442" duration="3991000" />
       <workItem from="1595504607066" duration="5465000" />
+      <workItem from="1595842709022" duration="2211000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetScript : MonoBehaviour
+public class TargetScriptPDF : MonoBehaviour
 {
-    public GameObject player;
 
-    private void OnCollisionEnter(Collision other)
-    {
+    public GameObject player;
+    private void OnCollisionEnter(Collision other){
+
         if (other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
         {
-            Debug.Log(player.GetComponent<Score>()._score += 100);
+            Debug.Log(player.GetComponent<ScorePDF>()._score+= 100);
             Destroy(gameObject);
         }
+    
     }
 }
