@@ -22,23 +22,11 @@
     <list default="true" id="7a50caa0-b74b-4fb5-add7-f0d62fda298a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_Score_based_Fps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputMaster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputMaster.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputMaster.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputMaster.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Blue Container.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Blue Container.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Green Container.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Green Container.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Grey Container.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Grey Container.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Red Container.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Red Container.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DemoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Prefab/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Prefab/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PDF/Scenes/Exemple.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PDF/Scenes/Exemple.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +37,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Score.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PDF/Script/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Plugins/HID/HID.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/mouselook.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,6 +53,14 @@
         <option value="$PROJECT_DIR$/Assets/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/mouselook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/Mouselook.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/MouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/Emitter.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/BulletScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/Shooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/TargetScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/PDF/Script/Score.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +104,11 @@
       <workItem from="1591271366728" duration="3100000" />
       <workItem from="1592417512600" duration="4097000" />
       <workItem from="1592484446550" duration="754000" />
+      <workItem from="1593688495584" duration="4085000" />
+      <workItem from="1594638709433" duration="4417000" />
+      <workItem from="1594897494303" duration="94000" />
+      <workItem from="1594897619442" duration="3991000" />
+      <workItem from="1595504607066" duration="5465000" />
     </task>
     <servers />
   </component>
